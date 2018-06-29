@@ -8,3 +8,8 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   return document.querySelector("#nested .target");
 };
+
+//increases the ranks in all of the .ranked-lists by n. (You might need to make use of parseInt()
+function increaseRankBy(n) {
+
+};

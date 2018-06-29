@@ -12,4 +12,8 @@ function nestedTarget() {
 //increases the ranks in all of the .ranked-lists by n. (You might need to make use of parseInt()
 function increaseRankBy(n) {
   const rankedLists = document.getElementbyId('app').document.querySelectorAll(ul.ranked-list li )
+
+  for (let i=0; i <= rankedLists.length; i++){
+    
+  }
 };
